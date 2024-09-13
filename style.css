@@ -6,6 +6,48 @@ h1{
 	margin-top: 50px;
 }
 
+
+.gridbutton {
+	display: inline-block;
+	margin: auto;
+	text-Align: center;
+	font-size: 20px;
+    width:130px;
+    height:40px;
+    background-color:#ccc;
+    border:1px solid #ff0000;
+}
+
+.center {
+	text-Align: center;
+}
+
+
+
+.popup {
+	font-size: 50px;
+	display: none;
+}
+
+#backbutton{
+	display: none;
+	text-Align: center;
+	width:130px;
+    height:40px;
+	background-color:#ccc;
+    border:1px solid #ff0000;
+	font-size: 20px;
+}
+
+.quiz{
+	color: purple;
+}
+
+.quizAnswer{
+	display: none;
+}
+
+
 p{
 	text-align: center;
 	font-size: 30px;
