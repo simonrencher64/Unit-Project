@@ -4,6 +4,7 @@ h1{
 	margin-right: 50px;
 	margin-left: 50px;
 	margin-top: 50px;
+	font-size: 70px;
 }
 
 
@@ -34,6 +35,7 @@ h1{
 	text-Align: center;
 	width:130px;
     height:40px;
+	margin-left:50px;
 	background-color:#ccc;
     border:1px solid #ff0000;
 	font-size: 20px;
@@ -67,4 +69,10 @@ p{
 }
 #this{
 	margin-right: 750px;
+}
+
+.image{
+	display: block;
+	width: 500px;
+	margin: auto;
 }
