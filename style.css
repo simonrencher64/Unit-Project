@@ -1,6 +1,7 @@
 h1{
 	text-Align: center;
 	border: double;
+	border-color: red;
 	margin-right: 50px;
 	margin-left: 50px;
 	margin-top: 50px;
@@ -17,6 +18,11 @@ h1{
     height:40px;
     background-color:#ccc;
     border:1px solid #ff0000;
+}
+
+.gridbutton:hover{
+	background-color: yellow;
+	border:3px solid red;
 }
 
 .center {
@@ -41,12 +47,23 @@ h1{
 	font-size: 20px;
 }
 
+#backbutton:hover{
+	background-color: yellow;
+	border:3px solid red;
+}
+
 .quiz{
-	color: purple;
+	color: black;
+	
+}
+
+.quiz:hover{
+	color: yellow;
 }
 
 .quizAnswer{
 	display: none;
+	color: red;
 }
 
 

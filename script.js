@@ -3,6 +3,7 @@ $(document).ready(function() {
 	$(".gridbutton").click(function() {
 		$(this).next().toggle();
 		$(".gridbutton").toggle();
+		$("#bottomImage").toggle();
 		toggled = $(this).next();
 		$("#backbutton").toggle();
 	});
@@ -11,6 +12,7 @@ $(document).ready(function() {
 		$(".gridbutton").toggle();
 		toggled.toggle();
 		$(this).toggle();
+		$("#bottomImage").toggle();
 	});
 	
 	$(".quiz").click(function() {
